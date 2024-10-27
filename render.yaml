@@ -4,6 +4,7 @@ services:
   plan: standard
   env: docker
   autoDeploy: false
+  region: ohio
   disk:
     name: mysql
     mountPath: /var/lib/mysql
